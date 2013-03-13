@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F553F1B616F0A9A00056E235 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F553F1B516F0A9A00056E235 /* icon.png */; };
+		F553F1B816F0A9A20056E235 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F553F1B716F0A9A20056E235 /* icon@2x.png */; };
 		F5978F2516EF1ECC0002ACFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5978F2416EF1ECC0002ACFA /* UIKit.framework */; };
 		F5978F2716EF1ECC0002ACFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5978F2616EF1ECC0002ACFA /* Foundation.framework */; };
 		F5978F2916EF1ECC0002ACFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5978F2816EF1ECC0002ACFA /* CoreGraphics.framework */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F553F1B516F0A9A00056E235 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		F553F1B716F0A9A20056E235 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
 		F5978F2116EF1ECC0002ACFA /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5978F2416EF1ECC0002ACFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5978F2616EF1ECC0002ACFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -130,6 +134,8 @@
 		F5978F2B16EF1ECC0002ACFA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F553F1B716F0A9A20056E235 /* icon@2x.png */,
+				F553F1B516F0A9A00056E235 /* icon.png */,
 				F5978F2C16EF1ECC0002ACFA /* Hello World-Info.plist */,
 				F5978F2D16EF1ECC0002ACFA /* InfoPlist.strings */,
 				F5978F3016EF1ECC0002ACFA /* main.m */,
@@ -237,6 +243,8 @@
 				F5978F3916EF1ECC0002ACFA /* Default@2x.png in Resources */,
 				F5978F3B16EF1ECC0002ACFA /* Default-568h@2x.png in Resources */,
 				F5978F4116EF1ECC0002ACFA /* BIDViewController.xib in Resources */,
+				F553F1B616F0A9A00056E235 /* icon.png in Resources */,
+				F553F1B816F0A9A20056E235 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +462,7 @@
 				F5978F5B16EF1ECC0002ACFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5978F5C16EF1ECC0002ACFA /* Build configuration list for PBXNativeTarget "Hello WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +471,7 @@
 				F5978F5E16EF1ECC0002ACFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
