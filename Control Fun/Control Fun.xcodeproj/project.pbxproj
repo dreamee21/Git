@@ -24,6 +24,8 @@
 		F5630D7616FB2EAB007E7EB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5630D7416FB2EAB007E7EB4 /* InfoPlist.strings */; };
 		F5630D7916FB2EAB007E7EB4 /* Control_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5630D7816FB2EAB007E7EB4 /* Control_FunTests.m */; };
 		F5630D8316FB2EDF007E7EB4 /* apress_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F5630D8216FB2EDF007E7EB4 /* apress_logo.png */; };
+		F5B15F0417005FC500D0B791 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B15F0217005FC500D0B791 /* blueButton.png */; };
+		F5B15F0517005FC500D0B791 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B15F0317005FC500D0B791 /* whiteButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		F5630D7716FB2EAB007E7EB4 /* Control_FunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Control_FunTests.h; sourceTree = "<group>"; };
 		F5630D7816FB2EAB007E7EB4 /* Control_FunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Control_FunTests.m; sourceTree = "<group>"; };
 		F5630D8216FB2EDF007E7EB4 /* apress_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apress_logo.png; path = "../../../../Downloads/Beginning-iOS6-Dev_sourcecode/ch04/Control Fun/Control Fun/apress_logo.png"; sourceTree = "<group>"; };
+		F5B15F0217005FC500D0B791 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueButton.png; path = "../../../../Downloads/Beginning-iOS6-Dev_sourcecode/ch04/Control Fun/Control Fun/blueButton.png"; sourceTree = "<group>"; };
+		F5B15F0317005FC500D0B791 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteButton.png; path = "../../../../Downloads/Beginning-iOS6-Dev_sourcecode/ch04/Control Fun/Control Fun/whiteButton.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		F5630D4E16FB2EAB007E7EB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F5B15F0217005FC500D0B791 /* blueButton.png */,
+				F5B15F0317005FC500D0B791 /* whiteButton.png */,
 				F5630D8216FB2EDF007E7EB4 /* apress_logo.png */,
 				F5630D4F16FB2EAB007E7EB4 /* Control Fun-Info.plist */,
 				F5630D5016FB2EAB007E7EB4 /* InfoPlist.strings */,
@@ -241,6 +247,8 @@
 				F5630D5E16FB2EAB007E7EB4 /* Default-568h@2x.png in Resources */,
 				F5630D6416FB2EAB007E7EB4 /* BIDViewController.xib in Resources */,
 				F5630D8316FB2EDF007E7EB4 /* apress_logo.png in Resources */,
+				F5B15F0417005FC500D0B791 /* blueButton.png in Resources */,
+				F5B15F0517005FC500D0B791 /* whiteButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
 				INFOPLIST_FILE = "Control Fun/Control Fun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
 				INFOPLIST_FILE = "Control Fun/Control Fun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -458,6 +468,7 @@
 				F5630D7E16FB2EAB007E7EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5630D7F16FB2EAB007E7EB4 /* Build configuration list for PBXNativeTarget "Control FunTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +477,7 @@
 				F5630D8116FB2EAB007E7EB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
