@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63DA66C61704A3C600B1EBC7 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B8B9A9170484590034B692 /* SwitchView.xib */; };
 		F5B8B95D170482D00034B692 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8B95C170482D00034B692 /* UIKit.framework */; };
 		F5B8B95F170482D00034B692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8B95E170482D00034B692 /* Foundation.framework */; };
 		F5B8B961170482D00034B692 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B8B960170482D00034B692 /* CoreGraphics.framework */; };
@@ -25,6 +24,7 @@
 		F5B8B9A21704841B0034B692 /* BIDSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8B9A11704841B0034B692 /* BIDSwitchViewController.m */; };
 		F5B8B9A5170484370034B692 /* BIDBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8B9A4170484370034B692 /* BIDBlueViewController.m */; };
 		F5B8B9A8170484440034B692 /* BIDYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8B9A7170484440034B692 /* BIDYellowViewController.m */; };
+		F5B8B9AA170484590034B692 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B8B9A9170484590034B692 /* SwitchView.xib */; };
 		F5B8B9AC170484660034B692 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B8B9AB170484660034B692 /* BlueView.xib */; };
 		F5B8B9AE1704846F0034B692 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B8B9AD1704846F0034B692 /* YellowView.xib */; };
 /* End PBXBuildFile section */
@@ -252,9 +252,9 @@
 				F5B8B96F170482D00034B692 /* Default.png in Resources */,
 				F5B8B971170482D00034B692 /* Default@2x.png in Resources */,
 				F5B8B973170482D00034B692 /* Default-568h@2x.png in Resources */,
+				F5B8B9AA170484590034B692 /* SwitchView.xib in Resources */,
 				F5B8B9AC170484660034B692 /* BlueView.xib in Resources */,
 				F5B8B9AE1704846F0034B692 /* YellowView.xib in Resources */,
-				63DA66C61704A3C600B1EBC7 /* SwitchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +466,6 @@
 				F5B8B98D170482D00034B692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		F5B8B98E170482D00034B692 /* Build configuration list for PBXNativeTarget "View SwitcherTests" */ = {
 			isa = XCConfigurationList;
@@ -475,7 +474,6 @@
 				F5B8B990170482D00034B692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
