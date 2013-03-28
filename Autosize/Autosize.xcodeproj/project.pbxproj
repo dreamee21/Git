@@ -16,13 +16,13 @@
 		635456FF17020C4F00A95FA8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 635456FE17020C4F00A95FA8 /* Default.png */; };
 		6354570117020C4F00A95FA8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6354570017020C4F00A95FA8 /* Default@2x.png */; };
 		6354570317020C4F00A95FA8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6354570217020C4F00A95FA8 /* Default-568h@2x.png */; };
-		6354570617020C4F00A95FA8 /* APAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6354570517020C4F00A95FA8 /* APAViewController.m */; };
 		6354570917020C4F00A95FA8 /* APAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6354570717020C4F00A95FA8 /* APAViewController.xib */; };
 		6354571117020C4F00A95FA8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6354571017020C4F00A95FA8 /* SenTestingKit.framework */; };
 		6354571217020C4F00A95FA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635456EC17020C4F00A95FA8 /* UIKit.framework */; };
 		6354571317020C4F00A95FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635456EE17020C4F00A95FA8 /* Foundation.framework */; };
 		6354571B17020C4F00A95FA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6354571917020C4F00A95FA8 /* InfoPlist.strings */; };
 		6354571E17020C4F00A95FA8 /* AutosizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6354571D17020C4F00A95FA8 /* AutosizeTests.m */; };
+		F516817717043578004A3605 /* APAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6354570517020C4F00A95FA8 /* APAViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -273,7 +273,7 @@
 			files = (
 				635456F917020C4F00A95FA8 /* main.m in Sources */,
 				635456FD17020C4F00A95FA8 /* APAAppDelegate.m in Sources */,
-				6354570617020C4F00A95FA8 /* APAViewController.m in Sources */,
+				F516817717043578004A3605 /* APAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +386,7 @@
 				GCC_PREFIX_HEADER = "Autosize/Autosize-Prefix.pch";
 				INFOPLIST_FILE = "Autosize/Autosize-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -397,6 +398,7 @@
 				GCC_PREFIX_HEADER = "Autosize/Autosize-Prefix.pch";
 				INFOPLIST_FILE = "Autosize/Autosize-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -454,6 +456,7 @@
 				6354572317020C4F00A95FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6354572417020C4F00A95FA8 /* Build configuration list for PBXNativeTarget "AutosizeTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +465,7 @@
 				6354572617020C4F00A95FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
