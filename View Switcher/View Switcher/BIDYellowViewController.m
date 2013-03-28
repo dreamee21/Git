@@ -8,11 +8,11 @@
 
 #import "BIDYellowViewController.h"
 
-@interface BIDYellowViewController ()
-
-@end
-
 @implementation BIDYellowViewController
+- (IBAction)yellowButtonPressed {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Yellow View Button Pressed" message:@"You pressed the button on the yellow view" delegate:nil cancelButtonTitle:@"Yep, I did." otherButtonTitles: nil];
+    [alert show];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

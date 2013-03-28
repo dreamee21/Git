@@ -30,7 +30,7 @@
 - (void)viewDidLoad
 {
     self.blueViewController = [[BIDBlueViewController alloc] initWithNibName:@"BlueView" bundle:nil];
-    [self.view insertSubview:self.blueViewController atIndex:0];
+    [self.view insertSubview:self.blueViewController.view atIndex:0];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
@@ -48,18 +48,29 @@
 }
 
 -(IBAction)switchViews:(id)sender{
+    [UIView beginAnimations:@"View Flip" context:nil];
+    [UIView setAnimationDuration:1.25];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    
     if (self.yellowViewController.view.superview == nil) {
-        if(self.yellowViewController ==nil) {
+        if(self.yellowViewController == nil) {
            self.yellowViewController = [[BIDYellowViewController alloc] initWithNibName:@"YellowView" bundle:nil];
         }
-        [blueViewController.view removeFromSuperview];
+        
+        [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.view cache:YES];
+        
+        [self.blueViewController.view removeFromSuperview];
         [self.view insertSubview:self.yellowViewController.view atIndex:0];
     } else {
         if (self.blueViewController == nil) {
             self.blueViewController = [[BIDBlueViewController alloc] initWithNibName:@"BlueView" bundle:nil];
         }
-        [yellowViewController.view removeFromSuperview];
+        
+        [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.view cache:YES];
+        
+        [self.yellowViewController.view removeFromSuperview];
         [self.view insertSubview:blueViewController.view atIndex:0];
     }
+    [UIView commitAnimations];
 }
 @end
