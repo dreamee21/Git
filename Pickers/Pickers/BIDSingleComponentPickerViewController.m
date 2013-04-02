@@ -13,6 +13,8 @@
 @end
 
 @implementation BIDSingleComponentPickerViewController
+@synthesize singlePicker;
+@synthesize pickerData;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +28,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSArray *array = [[NSArray alloc] initWithObjects:@"Luke", @"Leia", @"Han", @"Chebacca", @"Artoo", @"Threepio", @"Lando", nil];
+    self.pickerData = array;
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -33,6 +37,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)buttonPressed {
+    NSInteger row = [singlePicker selectedRowInComponent:0];
+    NSString *selected = [pickerData objectAtIndex:row];
+    NSString *title = [[NSString alloc] initWithFormat:@"You selected %@!", selected];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"Thank you for choosing." delegate:nil cancelButtonTitle:@"You're Welcome" otherButtonTitles:nil];
+    [alert show];
 }
 
 @end

@@ -36,6 +36,7 @@
 		F540C13E170556FB00DE3EC3 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F540C139170556FB00DE3EC3 /* doubleicon.png */; };
 		F540C13F170556FB00DE3EC3 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F540C13A170556FB00DE3EC3 /* singleicon.png */; };
 		F540C140170556FB00DE3EC3 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F540C13B170556FB00DE3EC3 /* toolicon.png */; };
+		F5CFA3EB170AAF780015862B /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CFA3EA170AAF780015862B /* TabBarController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		F540C139170556FB00DE3EC3 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
 		F540C13A170556FB00DE3EC3 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
 		F540C13B170556FB00DE3EC3 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
+		F5CFA3EA170AAF780015862B /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				F540C0F7170553ED00DE3EC3 /* BIDAppDelegate.h */,
 				F540C0F8170553ED00DE3EC3 /* BIDAppDelegate.m */,
+				F5CFA3EA170AAF780015862B /* TabBarController.xib */,
 				F540C11D1705548400DE3EC3 /* BIDDatePickerViewController.h */,
 				F540C11E1705548400DE3EC3 /* BIDDatePickerViewController.m */,
 				F540C11F1705548400DE3EC3 /* BIDDatePickerViewController.xib */,
@@ -302,6 +305,7 @@
 				F540C13E170556FB00DE3EC3 /* doubleicon.png in Resources */,
 				F540C13F170556FB00DE3EC3 /* singleicon.png in Resources */,
 				F540C140170556FB00DE3EC3 /* toolicon.png in Resources */,
+				F5CFA3EB170AAF780015862B /* TabBarController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +519,7 @@
 				F540C119170553EE00DE3EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F540C11A170553EE00DE3EC3 /* Build configuration list for PBXNativeTarget "PickersTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				F540C11C170553EE00DE3EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
