@@ -47,4 +47,19 @@
     [alert show];
 }
 
+#pragma mark -
+#pragma mark Picker Data Source Methods
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    return 1;
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    return [pickerData count];
+}
+
+#pragma mark Picker Delegate Methods
+- (NSString *)pickerView: (UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    return [pickerData objectAtIndex:row];
+}
 @end

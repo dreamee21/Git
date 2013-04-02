@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63C45F5B170B37EC0060B60F /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C45F56170B37EC0060B60F /* clockicon.png */; };
+		63C45F5C170B37EC0060B60F /* dependenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C45F57170B37EC0060B60F /* dependenticon.png */; };
+		63C45F5D170B37EC0060B60F /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C45F58170B37EC0060B60F /* doubleicon.png */; };
+		63C45F5E170B37EC0060B60F /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C45F59170B37EC0060B60F /* singleicon.png */; };
+		63C45F5F170B37EC0060B60F /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C45F5A170B37EC0060B60F /* toolicon.png */; };
 		F540C0E9170553ED00DE3EC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540C0E8170553ED00DE3EC3 /* UIKit.framework */; };
 		F540C0EB170553ED00DE3EC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540C0EA170553ED00DE3EC3 /* Foundation.framework */; };
 		F540C0ED170553ED00DE3EC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540C0EC170553ED00DE3EC3 /* CoreGraphics.framework */; };
@@ -31,11 +36,6 @@
 		F540C130170554D500DE3EC3 /* BIDDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F540C12E170554D500DE3EC3 /* BIDDependentComponentPickerViewController.xib */; };
 		F540C134170554E300DE3EC3 /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F540C132170554E300DE3EC3 /* BIDCustomPickerViewController.m */; };
 		F540C135170554E300DE3EC3 /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F540C133170554E300DE3EC3 /* BIDCustomPickerViewController.xib */; };
-		F540C13C170556FB00DE3EC3 /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F540C137170556FB00DE3EC3 /* clockicon.png */; };
-		F540C13D170556FB00DE3EC3 /* dependenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = F540C138170556FB00DE3EC3 /* dependenticon.png */; };
-		F540C13E170556FB00DE3EC3 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F540C139170556FB00DE3EC3 /* doubleicon.png */; };
-		F540C13F170556FB00DE3EC3 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F540C13A170556FB00DE3EC3 /* singleicon.png */; };
-		F540C140170556FB00DE3EC3 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F540C13B170556FB00DE3EC3 /* toolicon.png */; };
 		F5CFA3EB170AAF780015862B /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CFA3EA170AAF780015862B /* TabBarController.xib */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63C45F56170B37EC0060B60F /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		63C45F57170B37EC0060B60F /* dependenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dependenticon.png; sourceTree = "<group>"; };
+		63C45F58170B37EC0060B60F /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		63C45F59170B37EC0060B60F /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		63C45F5A170B37EC0060B60F /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 		F540C0E5170553ED00DE3EC3 /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F540C0E8170553ED00DE3EC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F540C0EA170553ED00DE3EC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,11 +89,6 @@
 		F540C131170554E300DE3EC3 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
 		F540C132170554E300DE3EC3 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
 		F540C133170554E300DE3EC3 /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
-		F540C137170556FB00DE3EC3 /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
-		F540C138170556FB00DE3EC3 /* dependenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dependenticon.png; sourceTree = "<group>"; };
-		F540C139170556FB00DE3EC3 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
-		F540C13A170556FB00DE3EC3 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
-		F540C13B170556FB00DE3EC3 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 		F5CFA3EA170AAF780015862B /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -209,11 +209,11 @@
 		F540C136170556FB00DE3EC3 /* Tab Bar Icons */ = {
 			isa = PBXGroup;
 			children = (
-				F540C137170556FB00DE3EC3 /* clockicon.png */,
-				F540C138170556FB00DE3EC3 /* dependenticon.png */,
-				F540C139170556FB00DE3EC3 /* doubleicon.png */,
-				F540C13A170556FB00DE3EC3 /* singleicon.png */,
-				F540C13B170556FB00DE3EC3 /* toolicon.png */,
+				63C45F56170B37EC0060B60F /* clockicon.png */,
+				63C45F57170B37EC0060B60F /* dependenticon.png */,
+				63C45F58170B37EC0060B60F /* doubleicon.png */,
+				63C45F59170B37EC0060B60F /* singleicon.png */,
+				63C45F5A170B37EC0060B60F /* toolicon.png */,
 			);
 			name = "Tab Bar Icons";
 			path = "../../../../Downloads/Beginning-iOS6-Dev_sourcecode/07 - Pickers/Tab Bar Icons";
@@ -300,12 +300,12 @@
 				F540C12B170554C600DE3EC3 /* BIDDoubleComponentPickerViewController.xib in Resources */,
 				F540C130170554D500DE3EC3 /* BIDDependentComponentPickerViewController.xib in Resources */,
 				F540C135170554E300DE3EC3 /* BIDCustomPickerViewController.xib in Resources */,
-				F540C13C170556FB00DE3EC3 /* clockicon.png in Resources */,
-				F540C13D170556FB00DE3EC3 /* dependenticon.png in Resources */,
-				F540C13E170556FB00DE3EC3 /* doubleicon.png in Resources */,
-				F540C13F170556FB00DE3EC3 /* singleicon.png in Resources */,
-				F540C140170556FB00DE3EC3 /* toolicon.png in Resources */,
 				F5CFA3EB170AAF780015862B /* TabBarController.xib in Resources */,
+				63C45F5B170B37EC0060B60F /* clockicon.png in Resources */,
+				63C45F5C170B37EC0060B60F /* dependenticon.png in Resources */,
+				63C45F5D170B37EC0060B60F /* doubleicon.png in Resources */,
+				63C45F5E170B37EC0060B60F /* singleicon.png in Resources */,
+				63C45F5F170B37EC0060B60F /* toolicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
