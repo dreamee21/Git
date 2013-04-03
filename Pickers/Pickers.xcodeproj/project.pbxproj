@@ -36,6 +36,13 @@
 		F540C130170554D500DE3EC3 /* BIDDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F540C12E170554D500DE3EC3 /* BIDDependentComponentPickerViewController.xib */; };
 		F540C134170554E300DE3EC3 /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F540C132170554E300DE3EC3 /* BIDCustomPickerViewController.m */; };
 		F540C135170554E300DE3EC3 /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F540C133170554E300DE3EC3 /* BIDCustomPickerViewController.xib */; };
+		F57DD784170C01940087E2F6 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = F57DD783170C01940087E2F6 /* statedictionary.plist */; };
+		F57DD78C170C0CFE0087E2F6 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = F57DD786170C0CFE0087E2F6 /* apple.png */; };
+		F57DD78D170C0CFE0087E2F6 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = F57DD787170C0CFE0087E2F6 /* bar.png */; };
+		F57DD78E170C0CFE0087E2F6 /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = F57DD788170C0CFE0087E2F6 /* cherry.png */; };
+		F57DD78F170C0CFE0087E2F6 /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = F57DD789170C0CFE0087E2F6 /* crown.png */; };
+		F57DD790170C0CFE0087E2F6 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = F57DD78A170C0CFE0087E2F6 /* lemon.png */; };
+		F57DD791170C0CFE0087E2F6 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = F57DD78B170C0CFE0087E2F6 /* seven.png */; };
 		F5CFA3EB170AAF780015862B /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CFA3EA170AAF780015862B /* TabBarController.xib */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +96,13 @@
 		F540C131170554E300DE3EC3 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
 		F540C132170554E300DE3EC3 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
 		F540C133170554E300DE3EC3 /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
+		F57DD783170C01940087E2F6 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = SOURCE_ROOT; };
+		F57DD786170C0CFE0087E2F6 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		F57DD787170C0CFE0087E2F6 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		F57DD788170C0CFE0087E2F6 /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		F57DD789170C0CFE0087E2F6 /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		F57DD78A170C0CFE0087E2F6 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		F57DD78B170C0CFE0087E2F6 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
 		F5CFA3EA170AAF780015862B /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +163,7 @@
 		F540C0EE170553ED00DE3EC3 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				F57DD783170C01940087E2F6 /* statedictionary.plist */,
 				F540C0F7170553ED00DE3EC3 /* BIDAppDelegate.h */,
 				F540C0F8170553ED00DE3EC3 /* BIDAppDelegate.m */,
 				F5CFA3EA170AAF780015862B /* TabBarController.xib */,
@@ -167,6 +182,7 @@
 				F540C131170554E300DE3EC3 /* BIDCustomPickerViewController.h */,
 				F540C132170554E300DE3EC3 /* BIDCustomPickerViewController.m */,
 				F540C133170554E300DE3EC3 /* BIDCustomPickerViewController.xib */,
+				F57DD785170C0CFE0087E2F6 /* Custom Picker Images */,
 				F540C136170556FB00DE3EC3 /* Tab Bar Icons */,
 				F540C0EF170553ED00DE3EC3 /* Supporting Files */,
 			);
@@ -217,6 +233,19 @@
 			);
 			name = "Tab Bar Icons";
 			path = "../../../../Downloads/Beginning-iOS6-Dev_sourcecode/07 - Pickers/Tab Bar Icons";
+			sourceTree = "<group>";
+		};
+		F57DD785170C0CFE0087E2F6 /* Custom Picker Images */ = {
+			isa = PBXGroup;
+			children = (
+				F57DD786170C0CFE0087E2F6 /* apple.png */,
+				F57DD787170C0CFE0087E2F6 /* bar.png */,
+				F57DD788170C0CFE0087E2F6 /* cherry.png */,
+				F57DD789170C0CFE0087E2F6 /* crown.png */,
+				F57DD78A170C0CFE0087E2F6 /* lemon.png */,
+				F57DD78B170C0CFE0087E2F6 /* seven.png */,
+			);
+			path = "Custom Picker Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +335,13 @@
 				63C45F5D170B37EC0060B60F /* doubleicon.png in Resources */,
 				63C45F5E170B37EC0060B60F /* singleicon.png in Resources */,
 				63C45F5F170B37EC0060B60F /* toolicon.png in Resources */,
+				F57DD784170C01940087E2F6 /* statedictionary.plist in Resources */,
+				F57DD78C170C0CFE0087E2F6 /* apple.png in Resources */,
+				F57DD78D170C0CFE0087E2F6 /* bar.png in Resources */,
+				F57DD78E170C0CFE0087E2F6 /* cherry.png in Resources */,
+				F57DD78F170C0CFE0087E2F6 /* crown.png in Resources */,
+				F57DD790170C0CFE0087E2F6 /* lemon.png in Resources */,
+				F57DD791170C0CFE0087E2F6 /* seven.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
