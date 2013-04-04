@@ -23,6 +23,8 @@
 		F540DFE4170C3A6600E5EE23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540DFBF170C3A6600E5EE23 /* Foundation.framework */; };
 		F540DFEC170C3A6600E5EE23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F540DFEA170C3A6600E5EE23 /* InfoPlist.strings */; };
 		F540DFEF170C3A6600E5EE23 /* Simple_TableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F540DFEE170C3A6600E5EE23 /* Simple_TableTests.m */; };
+		F5914766170D48E80023A2DD /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = F5914764170D48E80023A2DD /* star.png */; };
+		F5914767170D48E80023A2DD /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5914765170D48E80023A2DD /* star2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		F540DFEB170C3A6600E5EE23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F540DFED170C3A6600E5EE23 /* Simple_TableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_TableTests.h; sourceTree = "<group>"; };
 		F540DFEE170C3A6600E5EE23 /* Simple_TableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_TableTests.m; sourceTree = "<group>"; };
+		F5914764170D48E80023A2DD /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		F5914765170D48E80023A2DD /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		F540DFC3170C3A6600E5EE23 /* Simple Table */ = {
 			isa = PBXGroup;
 			children = (
+				F5914764170D48E80023A2DD /* star.png */,
+				F5914765170D48E80023A2DD /* star2.png */,
 				F540DFCC170C3A6600E5EE23 /* BIDAppDelegate.h */,
 				F540DFCD170C3A6600E5EE23 /* BIDAppDelegate.m */,
 				F540DFD5170C3A6600E5EE23 /* BIDViewController.h */,
@@ -237,6 +243,8 @@
 				F540DFD2170C3A6600E5EE23 /* Default@2x.png in Resources */,
 				F540DFD4170C3A6600E5EE23 /* Default-568h@2x.png in Resources */,
 				F540DFDA170C3A6600E5EE23 /* BIDViewController.xib in Resources */,
+				F5914766170D48E80023A2DD /* star.png in Resources */,
+				F5914767170D48E80023A2DD /* star2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +462,7 @@
 				F540DFF4170C3A6600E5EE23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F540DFF5170C3A6600E5EE23 /* Build configuration list for PBXNativeTarget "Simple TableTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +471,7 @@
 				F540DFF7170C3A6600E5EE23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
