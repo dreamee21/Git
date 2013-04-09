@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F510EDDC1712CA6F00233324 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F510EDDB1712CA6F00233324 /* UIKit.framework */; };
+		F510EDDE1712CA6F00233324 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F510EDDD1712CA6F00233324 /* Foundation.framework */; };
+		F510EDE01712CA6F00233324 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F510EDDF1712CA6F00233324 /* CoreGraphics.framework */; };
+		F510EDE61712CA6F00233324 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F510EDE41712CA6F00233324 /* InfoPlist.strings */; };
+		F510EDE81712CA6F00233324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EDE71712CA6F00233324 /* main.m */; };
+		F510EDEC1712CA6F00233324 /* APAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EDEB1712CA6F00233324 /* APAAppDelegate.m */; };
+		F510EDEE1712CA6F00233324 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EDED1712CA6F00233324 /* Default.png */; };
+		F510EDF01712CA6F00233324 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EDEF1712CA6F00233324 /* Default@2x.png */; };
+		F510EDF21712CA6F00233324 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EDF11712CA6F00233324 /* Default-568h@2x.png */; };
+		F510EDFA1712CA6F00233324 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F510EDF91712CA6F00233324 /* SenTestingKit.framework */; };
+		F510EDFB1712CA6F00233324 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F510EDDB1712CA6F00233324 /* UIKit.framework */; };
+		F510EDFC1712CA6F00233324 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F510EDDD1712CA6F00233324 /* Foundation.framework */; };
+		F510EE041712CA6F00233324 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F510EE021712CA6F00233324 /* InfoPlist.strings */; };
+		F510EE071712CA6F00233324 /* Phonecase_FreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EE061712CA6F00233324 /* Phonecase_FreeTests.m */; };
+		F510EE131712CA9F00233324 /* APAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EE111712CA9F00233324 /* APAHomeViewController.m */; };
+		F510EE141712CA9F00233324 /* APAHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F510EE121712CA9F00233324 /* APAHomeViewController.xib */; };
+		F510EE181712CAE000233324 /* APAMyPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EE161712CAE000233324 /* APAMyPurchaseViewController.m */; };
+		F510EE191712CAE000233324 /* APAMyPurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F510EE171712CAE000233324 /* APAMyPurchaseViewController.xib */; };
+		F510EE1D1712CAFC00233324 /* APACameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EE1B1712CAFC00233324 /* APACameraViewController.m */; };
+		F510EE1E1712CAFC00233324 /* APACameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F510EE1C1712CAFC00233324 /* APACameraViewController.xib */; };
+		F510EE221712CB1300233324 /* APAOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EE201712CB1300233324 /* APAOptionsViewController.m */; };
+		F510EE231712CB1300233324 /* APAOptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F510EE211712CB1300233324 /* APAOptionsViewController.xib */; };
+		F510EE271712CB3400233324 /* APAJoyHubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EE251712CB3400233324 /* APAJoyHubViewController.m */; };
+		F510EE281712CB3400233324 /* APAJoyHubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F510EE261712CB3400233324 /* APAJoyHubViewController.xib */; };
+		F510EE2A1712CC4700233324 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F510EE291712CC4700233324 /* TabBarController.xib */; };
+		F510EE2E1712D95100233324 /* APANoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EE2C1712D95100233324 /* APANoticeViewController.m */; };
+		F510EE2F1712D95100233324 /* APANoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F510EE2D1712D95100233324 /* APANoticeViewController.xib */; };
+		F510EE331712D95E00233324 /* APAHowToUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F510EE311712D95E00233324 /* APAHowToUseViewController.m */; };
+		F510EE341712D95E00233324 /* APAHowToUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F510EE321712D95E00233324 /* APAHowToUseViewController.xib */; };
+		F510EE3B1712DFC500233324 /* icon512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EE3A1712DFC500233324 /* icon512x512.png */; };
+		F510EE3D1712E02900233324 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EE3C1712E02900233324 /* icon.png */; };
+		F510EE3F1712E03100233324 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EE3E1712E03100233324 /* icon@2x.png */; };
+		F510EE411712E03D00233324 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EE401712E03D00233324 /* icon.png */; };
+		F510EE431712E04800233324 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EE421712E04800233324 /* icon@2x.png */; };
+		F510EE451712E08700233324 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EE441712E08700233324 /* bg.png */; };
+		F510EE471712E1F100233324 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EE461712E1F000233324 /* splash.png */; };
+		F510EE491712E1F500233324 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EE481712E1F400233324 /* Default.png */; };
+		F510EE4B1712E1FA00233324 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EE4A1712E1FA00233324 /* Default@2x.png */; };
+		F510EE4D1712E1FE00233324 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F510EE4C1712E1FE00233324 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F510EDFD1712CA6F00233324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F510EDD01712CA6F00233324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F510EDD71712CA6F00233324;
+			remoteInfo = "Phonecase Free";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F510EDD81712CA6F00233324 /* Phonecase Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phonecase Free.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F510EDDB1712CA6F00233324 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F510EDDD1712CA6F00233324 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F510EDDF1712CA6F00233324 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F510EDE31712CA6F00233324 /* Phonecase Free-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Phonecase Free-Info.plist"; sourceTree = "<group>"; };
+		F510EDE51712CA6F00233324 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F510EDE71712CA6F00233324 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F510EDE91712CA6F00233324 /* Phonecase Free-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Phonecase Free-Prefix.pch"; sourceTree = "<group>"; };
+		F510EDEA1712CA6F00233324 /* APAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAAppDelegate.h; sourceTree = "<group>"; };
+		F510EDEB1712CA6F00233324 /* APAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAAppDelegate.m; sourceTree = "<group>"; };
+		F510EDED1712CA6F00233324 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F510EDEF1712CA6F00233324 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F510EDF11712CA6F00233324 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F510EDF81712CA6F00233324 /* Phonecase FreeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phonecase FreeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F510EDF91712CA6F00233324 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F510EE011712CA6F00233324 /* Phonecase FreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Phonecase FreeTests-Info.plist"; sourceTree = "<group>"; };
+		F510EE031712CA6F00233324 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F510EE051712CA6F00233324 /* Phonecase_FreeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Phonecase_FreeTests.h; sourceTree = "<group>"; };
+		F510EE061712CA6F00233324 /* Phonecase_FreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Phonecase_FreeTests.m; sourceTree = "<group>"; };
+		F510EE101712CA9F00233324 /* APAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAHomeViewController.h; sourceTree = "<group>"; };
+		F510EE111712CA9F00233324 /* APAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAHomeViewController.m; sourceTree = "<group>"; };
+		F510EE121712CA9F00233324 /* APAHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APAHomeViewController.xib; sourceTree = "<group>"; };
+		F510EE151712CAE000233324 /* APAMyPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAMyPurchaseViewController.h; sourceTree = "<group>"; };
+		F510EE161712CAE000233324 /* APAMyPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAMyPurchaseViewController.m; sourceTree = "<group>"; };
+		F510EE171712CAE000233324 /* APAMyPurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APAMyPurchaseViewController.xib; sourceTree = "<group>"; };
+		F510EE1A1712CAFC00233324 /* APACameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APACameraViewController.h; sourceTree = "<group>"; };
+		F510EE1B1712CAFC00233324 /* APACameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APACameraViewController.m; sourceTree = "<group>"; };
+		F510EE1C1712CAFC00233324 /* APACameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APACameraViewController.xib; sourceTree = "<group>"; };
+		F510EE1F1712CB1300233324 /* APAOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAOptionsViewController.h; sourceTree = "<group>"; };
+		F510EE201712CB1300233324 /* APAOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAOptionsViewController.m; sourceTree = "<group>"; };
+		F510EE211712CB1300233324 /* APAOptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APAOptionsViewController.xib; sourceTree = "<group>"; };
+		F510EE241712CB3400233324 /* APAJoyHubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAJoyHubViewController.h; sourceTree = "<group>"; };
+		F510EE251712CB3400233324 /* APAJoyHubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAJoyHubViewController.m; sourceTree = "<group>"; };
+		F510EE261712CB3400233324 /* APAJoyHubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APAJoyHubViewController.xib; sourceTree = "<group>"; };
+		F510EE291712CC4700233324 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		F510EE2B1712D95100233324 /* APANoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APANoticeViewController.h; sourceTree = "<group>"; };
+		F510EE2C1712D95100233324 /* APANoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APANoticeViewController.m; sourceTree = "<group>"; };
+		F510EE2D1712D95100233324 /* APANoticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APANoticeViewController.xib; sourceTree = "<group>"; };
+		F510EE301712D95E00233324 /* APAHowToUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAHowToUseViewController.h; sourceTree = "<group>"; };
+		F510EE311712D95E00233324 /* APAHowToUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAHowToUseViewController.m; sourceTree = "<group>"; };
+		F510EE321712D95E00233324 /* APAHowToUseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APAHowToUseViewController.xib; sourceTree = "<group>"; };
+		F510EE3A1712DFC500233324 /* icon512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon512x512.png; sourceTree = "<group>"; };
+		F510EE3C1712E02900233324 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F510EE3E1712E03100233324 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		F510EE401712E03D00233324 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F510EE421712E04800233324 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		F510EE441712E08700233324 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		F510EE461712E1F000233324 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		F510EE481712E1F400233324 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F510EE4A1712E1FA00233324 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F510EE4C1712E1FE00233324 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F510EDD51712CA6F00233324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510EDDC1712CA6F00233324 /* UIKit.framework in Frameworks */,
+				F510EDDE1712CA6F00233324 /* Foundation.framework in Frameworks */,
+				F510EDE01712CA6F00233324 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F510EDF41712CA6F00233324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510EDFA1712CA6F00233324 /* SenTestingKit.framework in Frameworks */,
+				F510EDFB1712CA6F00233324 /* UIKit.framework in Frameworks */,
+				F510EDFC1712CA6F00233324 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F510EDCF1712CA6F00233324 = {
+			isa = PBXGroup;
+			children = (
+				F510EE4C1712E1FE00233324 /* Default-568h@2x.png */,
+				F510EE4A1712E1FA00233324 /* Default@2x.png */,
+				F510EE481712E1F400233324 /* Default.png */,
+				F510EE421712E04800233324 /* icon@2x.png */,
+				F510EE401712E03D00233324 /* icon.png */,
+				F510EDE11712CA6F00233324 /* Phonecase Free */,
+				F510EDFF1712CA6F00233324 /* Phonecase FreeTests */,
+				F510EDDA1712CA6F00233324 /* Frameworks */,
+				F510EDD91712CA6F00233324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F510EDD91712CA6F00233324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F510EDD81712CA6F00233324 /* Phonecase Free.app */,
+				F510EDF81712CA6F00233324 /* Phonecase FreeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F510EDDA1712CA6F00233324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F510EDDB1712CA6F00233324 /* UIKit.framework */,
+				F510EDDD1712CA6F00233324 /* Foundation.framework */,
+				F510EDDF1712CA6F00233324 /* CoreGraphics.framework */,
+				F510EDF91712CA6F00233324 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F510EDE11712CA6F00233324 /* Phonecase Free */ = {
+			isa = PBXGroup;
+			children = (
+				F510EDEA1712CA6F00233324 /* APAAppDelegate.h */,
+				F510EDEB1712CA6F00233324 /* APAAppDelegate.m */,
+				F510EE291712CC4700233324 /* TabBarController.xib */,
+				F510EE101712CA9F00233324 /* APAHomeViewController.h */,
+				F510EE111712CA9F00233324 /* APAHomeViewController.m */,
+				F510EE121712CA9F00233324 /* APAHomeViewController.xib */,
+				F510EE151712CAE000233324 /* APAMyPurchaseViewController.h */,
+				F510EE161712CAE000233324 /* APAMyPurchaseViewController.m */,
+				F510EE171712CAE000233324 /* APAMyPurchaseViewController.xib */,
+				F510EE1A1712CAFC00233324 /* APACameraViewController.h */,
+				F510EE1B1712CAFC00233324 /* APACameraViewController.m */,
+				F510EE1C1712CAFC00233324 /* APACameraViewController.xib */,
+				F510EE1F1712CB1300233324 /* APAOptionsViewController.h */,
+				F510EE201712CB1300233324 /* APAOptionsViewController.m */,
+				F510EE211712CB1300233324 /* APAOptionsViewController.xib */,
+				F510EE2B1712D95100233324 /* APANoticeViewController.h */,
+				F510EE2C1712D95100233324 /* APANoticeViewController.m */,
+				F510EE2D1712D95100233324 /* APANoticeViewController.xib */,
+				F510EE301712D95E00233324 /* APAHowToUseViewController.h */,
+				F510EE311712D95E00233324 /* APAHowToUseViewController.m */,
+				F510EE321712D95E00233324 /* APAHowToUseViewController.xib */,
+				F510EE241712CB3400233324 /* APAJoyHubViewController.h */,
+				F510EE251712CB3400233324 /* APAJoyHubViewController.m */,
+				F510EE261712CB3400233324 /* APAJoyHubViewController.xib */,
+				F510EDE21712CA6F00233324 /* Supporting Files */,
+			);
+			path = "Phonecase Free";
+			sourceTree = "<group>";
+		};
+		F510EDE21712CA6F00233324 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F510EE461712E1F000233324 /* splash.png */,
+				F510EE441712E08700233324 /* bg.png */,
+				F510EE3C1712E02900233324 /* icon.png */,
+				F510EE3E1712E03100233324 /* icon@2x.png */,
+				F510EE3A1712DFC500233324 /* icon512x512.png */,
+				F510EDE31712CA6F00233324 /* Phonecase Free-Info.plist */,
+				F510EDE41712CA6F00233324 /* InfoPlist.strings */,
+				F510EDE71712CA6F00233324 /* main.m */,
+				F510EDE91712CA6F00233324 /* Phonecase Free-Prefix.pch */,
+				F510EDED1712CA6F00233324 /* Default.png */,
+				F510EDEF1712CA6F00233324 /* Default@2x.png */,
+				F510EDF11712CA6F00233324 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F510EDFF1712CA6F00233324 /* Phonecase FreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F510EE051712CA6F00233324 /* Phonecase_FreeTests.h */,
+				F510EE061712CA6F00233324 /* Phonecase_FreeTests.m */,
+				F510EE001712CA6F00233324 /* Supporting Files */,
+			);
+			path = "Phonecase FreeTests";
+			sourceTree = "<group>";
+		};
+		F510EE001712CA6F00233324 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F510EE011712CA6F00233324 /* Phonecase FreeTests-Info.plist */,
+				F510EE021712CA6F00233324 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F510EDD71712CA6F00233324 /* Phonecase Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F510EE0A1712CA6F00233324 /* Build configuration list for PBXNativeTarget "Phonecase Free" */;
+			buildPhases = (
+				F510EDD41712CA6F00233324 /* Sources */,
+				F510EDD51712CA6F00233324 /* Frameworks */,
+				F510EDD61712CA6F00233324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phonecase Free";
+			productName = "Phonecase Free";
+			productReference = F510EDD81712CA6F00233324 /* Phonecase Free.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F510EDF71712CA6F00233324 /* Phonecase FreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F510EE0D1712CA6F00233324 /* Build configuration list for PBXNativeTarget "Phonecase FreeTests" */;
+			buildPhases = (
+				F510EDF31712CA6F00233324 /* Sources */,
+				F510EDF41712CA6F00233324 /* Frameworks */,
+				F510EDF51712CA6F00233324 /* Resources */,
+				F510EDF61712CA6F00233324 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F510EDFE1712CA6F00233324 /* PBXTargetDependency */,
+			);
+			name = "Phonecase FreeTests";
+			productName = "Phonecase FreeTests";
+			productReference = F510EDF81712CA6F00233324 /* Phonecase FreeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F510EDD01712CA6F00233324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = APA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Chris Kim";
+			};
+			buildConfigurationList = F510EDD31712CA6F00233324 /* Build configuration list for PBXProject "Phonecase Free" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F510EDCF1712CA6F00233324;
+			productRefGroup = F510EDD91712CA6F00233324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F510EDD71712CA6F00233324 /* Phonecase Free */,
+				F510EDF71712CA6F00233324 /* Phonecase FreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F510EDD61712CA6F00233324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510EDE61712CA6F00233324 /* InfoPlist.strings in Resources */,
+				F510EDEE1712CA6F00233324 /* Default.png in Resources */,
+				F510EDF01712CA6F00233324 /* Default@2x.png in Resources */,
+				F510EDF21712CA6F00233324 /* Default-568h@2x.png in Resources */,
+				F510EE141712CA9F00233324 /* APAHomeViewController.xib in Resources */,
+				F510EE191712CAE000233324 /* APAMyPurchaseViewController.xib in Resources */,
+				F510EE1E1712CAFC00233324 /* APACameraViewController.xib in Resources */,
+				F510EE231712CB1300233324 /* APAOptionsViewController.xib in Resources */,
+				F510EE281712CB3400233324 /* APAJoyHubViewController.xib in Resources */,
+				F510EE2A1712CC4700233324 /* TabBarController.xib in Resources */,
+				F510EE2F1712D95100233324 /* APANoticeViewController.xib in Resources */,
+				F510EE341712D95E00233324 /* APAHowToUseViewController.xib in Resources */,
+				F510EE3B1712DFC500233324 /* icon512x512.png in Resources */,
+				F510EE3D1712E02900233324 /* icon.png in Resources */,
+				F510EE3F1712E03100233324 /* icon@2x.png in Resources */,
+				F510EE411712E03D00233324 /* icon.png in Resources */,
+				F510EE431712E04800233324 /* icon@2x.png in Resources */,
+				F510EE451712E08700233324 /* bg.png in Resources */,
+				F510EE471712E1F100233324 /* splash.png in Resources */,
+				F510EE491712E1F500233324 /* Default.png in Resources */,
+				F510EE4B1712E1FA00233324 /* Default@2x.png in Resources */,
+				F510EE4D1712E1FE00233324 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F510EDF51712CA6F00233324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510EE041712CA6F00233324 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F510EDF61712CA6F00233324 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F510EDD41712CA6F00233324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510EDE81712CA6F00233324 /* main.m in Sources */,
+				F510EDEC1712CA6F00233324 /* APAAppDelegate.m in Sources */,
+				F510EE131712CA9F00233324 /* APAHomeViewController.m in Sources */,
+				F510EE181712CAE000233324 /* APAMyPurchaseViewController.m in Sources */,
+				F510EE1D1712CAFC00233324 /* APACameraViewController.m in Sources */,
+				F510EE221712CB1300233324 /* APAOptionsViewController.m in Sources */,
+				F510EE271712CB3400233324 /* APAJoyHubViewController.m in Sources */,
+				F510EE2E1712D95100233324 /* APANoticeViewController.m in Sources */,
+				F510EE331712D95E00233324 /* APAHowToUseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F510EDF31712CA6F00233324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510EE071712CA6F00233324 /* Phonecase_FreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F510EDFE1712CA6F00233324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F510EDD71712CA6F00233324 /* Phonecase Free */;
+			targetProxy = F510EDFD1712CA6F00233324 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F510EDE41712CA6F00233324 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F510EDE51712CA6F00233324 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F510EE021712CA6F00233324 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F510EE031712CA6F00233324 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F510EE081712CA6F00233324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F510EE091712CA6F00233324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F510EE0B1712CA6F00233324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Phonecase Free/Phonecase Free-Prefix.pch";
+				INFOPLIST_FILE = "Phonecase Free/Phonecase Free-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F510EE0C1712CA6F00233324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Phonecase Free/Phonecase Free-Prefix.pch";
+				INFOPLIST_FILE = "Phonecase Free/Phonecase Free-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F510EE0E1712CA6F00233324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Phonecase Free.app/Phonecase Free";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Phonecase Free/Phonecase Free-Prefix.pch";
+				INFOPLIST_FILE = "Phonecase FreeTests/Phonecase FreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F510EE0F1712CA6F00233324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Phonecase Free.app/Phonecase Free";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Phonecase Free/Phonecase Free-Prefix.pch";
+				INFOPLIST_FILE = "Phonecase FreeTests/Phonecase FreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F510EDD31712CA6F00233324 /* Build configuration list for PBXProject "Phonecase Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F510EE081712CA6F00233324 /* Debug */,
+				F510EE091712CA6F00233324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F510EE0A1712CA6F00233324 /* Build configuration list for PBXNativeTarget "Phonecase Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F510EE0B1712CA6F00233324 /* Debug */,
+				F510EE0C1712CA6F00233324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F510EE0D1712CA6F00233324 /* Build configuration list for PBXNativeTarget "Phonecase FreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F510EE0E1712CA6F00233324 /* Debug */,
+				F510EE0F1712CA6F00233324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F510EDD01712CA6F00233324 /* Project object */;
+}
