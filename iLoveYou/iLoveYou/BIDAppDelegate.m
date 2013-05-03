@@ -1,32 +1,23 @@
 //
 //  BIDAppDelegate.m
-//  Nav
+//  iLoveYou
 //
-//  Created by Chris Kim on 13. 4. 9..
+//  Created by Chris Kim on 13. 4. 17..
 //  Copyright (c) 2013년 Chris Kim. All rights reserved.
 //
 
 #import "BIDAppDelegate.h"
-#import "BIDFirstLevelController.h"
+
+#import "BIDViewController.h"
 
 @implementation BIDAppDelegate
-
-@synthesize window = _window;
-@synthesize navController;
-
-#pragma mark -
-#pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    BIDFirstLevelController *first = [[BIDFirstLevelController alloc] initWithStyle:UITableViewStylePlain];
-    self.navController = [[UINavigationController alloc] initWithRootViewController:first];
-    [self.window addSubview:navController.view];
-    
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.viewController = [[BIDViewController alloc] initWithNibName:@"BIDViewController" bundle:nil];
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

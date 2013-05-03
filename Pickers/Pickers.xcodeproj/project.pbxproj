@@ -483,10 +483,12 @@
 		F540C118170553EE00DE3EC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Kim (2D2R8Z7FC3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pickers/Pickers-Prefix.pch";
 				INFOPLIST_FILE = "Pickers/Pickers-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "09A41BF8-C8F0-4E1C-9312-4C11FC2BDB5A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -494,10 +496,12 @@
 		F540C119170553EE00DE3EC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Kim (2D2R8Z7FC3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pickers/Pickers-Prefix.pch";
 				INFOPLIST_FILE = "Pickers/Pickers-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "09A41BF8-C8F0-4E1C-9312-4C11FC2BDB5A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -21,6 +21,10 @@
 		F53FDE7A1714447B0069CA4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53FDE5B1714447B0069CA4D /* Foundation.framework */; };
 		F53FDE821714447B0069CA4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F53FDE801714447B0069CA4D /* InfoPlist.strings */; };
 		F53FDE851714447B0069CA4D /* NavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53FDE841714447B0069CA4D /* NavTests.m */; };
+		F555CC5F1715957C005C4F02 /* BIDSecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F555CC5D1715957C005C4F02 /* BIDSecondLevelViewController.m */; };
+		F555CC601715957C005C4F02 /* BIDSecondLevelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F555CC5E1715957C005C4F02 /* BIDSecondLevelViewController.xib */; };
+		F5B1F3AB17157350005A082E /* BIDFirstLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B1F3A917157350005A082E /* BIDFirstLevelController.m */; };
+		F5B1F3AC17157350005A082E /* BIDFirstLevelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B1F3AA17157350005A082E /* BIDFirstLevelController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		F53FDE811714447B0069CA4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F53FDE831714447B0069CA4D /* NavTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavTests.h; sourceTree = "<group>"; };
 		F53FDE841714447B0069CA4D /* NavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTests.m; sourceTree = "<group>"; };
+		F555CC5C1715957C005C4F02 /* BIDSecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSecondLevelViewController.h; sourceTree = "<group>"; };
+		F555CC5D1715957C005C4F02 /* BIDSecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSecondLevelViewController.m; sourceTree = "<group>"; };
+		F555CC5E1715957C005C4F02 /* BIDSecondLevelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDSecondLevelViewController.xib; sourceTree = "<group>"; };
+		F5B1F3A817157350005A082E /* BIDFirstLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDFirstLevelController.h; sourceTree = "<group>"; };
+		F5B1F3A917157350005A082E /* BIDFirstLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDFirstLevelController.m; sourceTree = "<group>"; };
+		F5B1F3AA17157350005A082E /* BIDFirstLevelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDFirstLevelController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +124,12 @@
 			children = (
 				F53FDE681714447B0069CA4D /* BIDAppDelegate.h */,
 				F53FDE691714447B0069CA4D /* BIDAppDelegate.m */,
+				F5B1F3A817157350005A082E /* BIDFirstLevelController.h */,
+				F5B1F3A917157350005A082E /* BIDFirstLevelController.m */,
+				F5B1F3AA17157350005A082E /* BIDFirstLevelController.xib */,
+				F555CC5C1715957C005C4F02 /* BIDSecondLevelViewController.h */,
+				F555CC5D1715957C005C4F02 /* BIDSecondLevelViewController.m */,
+				F555CC5E1715957C005C4F02 /* BIDSecondLevelViewController.xib */,
 				F53FDE601714447B0069CA4D /* Supporting Files */,
 			);
 			path = Nav;
@@ -228,6 +244,8 @@
 				F53FDE6C1714447B0069CA4D /* Default.png in Resources */,
 				F53FDE6E1714447B0069CA4D /* Default@2x.png in Resources */,
 				F53FDE701714447B0069CA4D /* Default-568h@2x.png in Resources */,
+				F5B1F3AC17157350005A082E /* BIDFirstLevelController.xib in Resources */,
+				F555CC601715957C005C4F02 /* BIDSecondLevelViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +282,8 @@
 			files = (
 				F53FDE661714447B0069CA4D /* main.m in Sources */,
 				F53FDE6A1714447B0069CA4D /* BIDAppDelegate.m in Sources */,
+				F5B1F3AB17157350005A082E /* BIDFirstLevelController.m in Sources */,
+				F555CC5F1715957C005C4F02 /* BIDSecondLevelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +456,7 @@
 				F53FDE8A1714447B0069CA4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F53FDE8B1714447B0069CA4D /* Build configuration list for PBXNativeTarget "NavTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +465,7 @@
 				F53FDE8D1714447B0069CA4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
