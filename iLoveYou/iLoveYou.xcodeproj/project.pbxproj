@@ -428,13 +428,13 @@
 		F59C1B36171EDBA000AF7B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Kim (2D2R8Z7FC3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iLoveYou/iLoveYou-Prefix.pch";
 				INFOPLIST_FILE = "iLoveYou/iLoveYou-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "05BBFEF2-4D98-4BC9-876D-E38E238B8B0F";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -442,13 +442,13 @@
 		F59C1B37171EDBA000AF7B7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Kim (2D2R8Z7FC3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iLoveYou/iLoveYou-Prefix.pch";
 				INFOPLIST_FILE = "iLoveYou/iLoveYou-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "05BBFEF2-4D98-4BC9-876D-E38E238B8B0F";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

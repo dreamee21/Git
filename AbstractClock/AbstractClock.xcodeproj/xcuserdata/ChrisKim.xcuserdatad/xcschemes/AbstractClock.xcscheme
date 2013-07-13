@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5B817C71758BF7100E6972B"
-               BuildableName = "nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;.app"
-               BlueprintName = "nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;"
-               ReferencedContainer = "container:nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;.xcodeproj">
+               BlueprintIdentifier = "F5A80537178BE84F00062918"
+               BuildableName = "AbstractClock.app"
+               BlueprintName = "AbstractClock"
+               ReferencedContainer = "container:AbstractClock.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5B817ED1758BF7100E6972B"
-               BuildableName = "nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;Tests.octest"
-               BlueprintName = "nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;Tests"
-               ReferencedContainer = "container:nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;.xcodeproj">
+               BlueprintIdentifier = "F5A80560178BE84F00062918"
+               BuildableName = "AbstractClockTests.octest"
+               BlueprintName = "AbstractClockTests"
+               ReferencedContainer = "container:AbstractClock.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5B817C71758BF7100E6972B"
-            BuildableName = "nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;.app"
-            BlueprintName = "nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;"
-            ReferencedContainer = "container:nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;.xcodeproj">
+            BlueprintIdentifier = "F5A80537178BE84F00062918"
+            BuildableName = "AbstractClock.app"
+            BlueprintName = "AbstractClock"
+            ReferencedContainer = "container:AbstractClock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5B817C71758BF7100E6972B"
-            BuildableName = "nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;.app"
-            BlueprintName = "nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;"
-            ReferencedContainer = "container:nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;.xcodeproj">
+            BlueprintIdentifier = "F5A80537178BE84F00062918"
+            BuildableName = "AbstractClock.app"
+            BlueprintName = "AbstractClock"
+            ReferencedContainer = "container:AbstractClock.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5B817C71758BF7100E6972B"
-            BuildableName = "nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;.app"
-            BlueprintName = "nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;"
-            ReferencedContainer = "container:nu&#4367;&#4454;&#4363;&#4469;&#4361;&#4467;.xcodeproj">
+            BlueprintIdentifier = "F5A80537178BE84F00062918"
+            BuildableName = "AbstractClock.app"
+            BlueprintName = "AbstractClock"
+            ReferencedContainer = "container:AbstractClock.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
