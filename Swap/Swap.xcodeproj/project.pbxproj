@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52DC825170442AD00C31AEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52DC824170442AD00C31AEA /* UIKit.framework */; };
+		F52DC827170442AD00C31AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52DC826170442AD00C31AEA /* Foundation.framework */; };
+		F52DC829170442AD00C31AEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52DC828170442AD00C31AEA /* CoreGraphics.framework */; };
+		F52DC82F170442AD00C31AEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F52DC82D170442AD00C31AEA /* InfoPlist.strings */; };
+		F52DC831170442AD00C31AEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52DC830170442AD00C31AEA /* main.m */; };
+		F52DC835170442AD00C31AEA /* APAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F52DC834170442AD00C31AEA /* APAAppDelegate.m */; };
+		F52DC837170442AD00C31AEA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DC836170442AD00C31AEA /* Default.png */; };
+		F52DC839170442AD00C31AEA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DC838170442AD00C31AEA /* Default@2x.png */; };
+		F52DC83B170442AD00C31AEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F52DC83A170442AD00C31AEA /* Default-568h@2x.png */; };
+		F52DC83E170442AD00C31AEA /* APAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52DC83D170442AD00C31AEA /* APAViewController.m */; };
+		F52DC841170442AD00C31AEA /* APAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52DC83F170442AD00C31AEA /* APAViewController.xib */; };
+		F52DC849170442AD00C31AEA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52DC848170442AD00C31AEA /* SenTestingKit.framework */; };
+		F52DC84A170442AD00C31AEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52DC824170442AD00C31AEA /* UIKit.framework */; };
+		F52DC84B170442AD00C31AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52DC826170442AD00C31AEA /* Foundation.framework */; };
+		F52DC853170442AD00C31AEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F52DC851170442AD00C31AEA /* InfoPlist.strings */; };
+		F52DC856170442AD00C31AEA /* SwapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52DC855170442AD00C31AEA /* SwapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F52DC84C170442AD00C31AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52DC819170442AD00C31AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52DC820170442AD00C31AEA;
+			remoteInfo = Swap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F52DC821170442AD00C31AEA /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52DC824170442AD00C31AEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F52DC826170442AD00C31AEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F52DC828170442AD00C31AEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F52DC82C170442AD00C31AEA /* Swap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swap-Info.plist"; sourceTree = "<group>"; };
+		F52DC82E170442AD00C31AEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F52DC830170442AD00C31AEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F52DC832170442AD00C31AEA /* Swap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swap-Prefix.pch"; sourceTree = "<group>"; };
+		F52DC833170442AD00C31AEA /* APAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAAppDelegate.h; sourceTree = "<group>"; };
+		F52DC834170442AD00C31AEA /* APAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAAppDelegate.m; sourceTree = "<group>"; };
+		F52DC836170442AD00C31AEA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F52DC838170442AD00C31AEA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F52DC83A170442AD00C31AEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F52DC83C170442AD00C31AEA /* APAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAViewController.h; sourceTree = "<group>"; };
+		F52DC83D170442AD00C31AEA /* APAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAViewController.m; sourceTree = "<group>"; };
+		F52DC840170442AD00C31AEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APAViewController.xib; sourceTree = "<group>"; };
+		F52DC847170442AD00C31AEA /* SwapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52DC848170442AD00C31AEA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F52DC850170442AD00C31AEA /* SwapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwapTests-Info.plist"; sourceTree = "<group>"; };
+		F52DC852170442AD00C31AEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F52DC854170442AD00C31AEA /* SwapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapTests.h; sourceTree = "<group>"; };
+		F52DC855170442AD00C31AEA /* SwapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52DC81E170442AD00C31AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DC825170442AD00C31AEA /* UIKit.framework in Frameworks */,
+				F52DC827170442AD00C31AEA /* Foundation.framework in Frameworks */,
+				F52DC829170442AD00C31AEA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52DC843170442AD00C31AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DC849170442AD00C31AEA /* SenTestingKit.framework in Frameworks */,
+				F52DC84A170442AD00C31AEA /* UIKit.framework in Frameworks */,
+				F52DC84B170442AD00C31AEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F52DC818170442AD00C31AEA = {
+			isa = PBXGroup;
+			children = (
+				F52DC82A170442AD00C31AEA /* Swap */,
+				F52DC84E170442AD00C31AEA /* SwapTests */,
+				F52DC823170442AD00C31AEA /* Frameworks */,
+				F52DC822170442AD00C31AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F52DC822170442AD00C31AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52DC821170442AD00C31AEA /* Swap.app */,
+				F52DC847170442AD00C31AEA /* SwapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52DC823170442AD00C31AEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F52DC824170442AD00C31AEA /* UIKit.framework */,
+				F52DC826170442AD00C31AEA /* Foundation.framework */,
+				F52DC828170442AD00C31AEA /* CoreGraphics.framework */,
+				F52DC848170442AD00C31AEA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F52DC82A170442AD00C31AEA /* Swap */ = {
+			isa = PBXGroup;
+			children = (
+				F52DC833170442AD00C31AEA /* APAAppDelegate.h */,
+				F52DC834170442AD00C31AEA /* APAAppDelegate.m */,
+				F52DC83C170442AD00C31AEA /* APAViewController.h */,
+				F52DC83D170442AD00C31AEA /* APAViewController.m */,
+				F52DC83F170442AD00C31AEA /* APAViewController.xib */,
+				F52DC82B170442AD00C31AEA /* Supporting Files */,
+			);
+			path = Swap;
+			sourceTree = "<group>";
+		};
+		F52DC82B170442AD00C31AEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F52DC82C170442AD00C31AEA /* Swap-Info.plist */,
+				F52DC82D170442AD00C31AEA /* InfoPlist.strings */,
+				F52DC830170442AD00C31AEA /* main.m */,
+				F52DC832170442AD00C31AEA /* Swap-Prefix.pch */,
+				F52DC836170442AD00C31AEA /* Default.png */,
+				F52DC838170442AD00C31AEA /* Default@2x.png */,
+				F52DC83A170442AD00C31AEA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F52DC84E170442AD00C31AEA /* SwapTests */ = {
+			isa = PBXGroup;
+			children = (
+				F52DC854170442AD00C31AEA /* SwapTests.h */,
+				F52DC855170442AD00C31AEA /* SwapTests.m */,
+				F52DC84F170442AD00C31AEA /* Supporting Files */,
+			);
+			path = SwapTests;
+			sourceTree = "<group>";
+		};
+		F52DC84F170442AD00C31AEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F52DC850170442AD00C31AEA /* SwapTests-Info.plist */,
+				F52DC851170442AD00C31AEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52DC820170442AD00C31AEA /* Swap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52DC859170442AD00C31AEA /* Build configuration list for PBXNativeTarget "Swap" */;
+			buildPhases = (
+				F52DC81D170442AD00C31AEA /* Sources */,
+				F52DC81E170442AD00C31AEA /* Frameworks */,
+				F52DC81F170442AD00C31AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swap;
+			productName = Swap;
+			productReference = F52DC821170442AD00C31AEA /* Swap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52DC846170442AD00C31AEA /* SwapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52DC85C170442AD00C31AEA /* Build configuration list for PBXNativeTarget "SwapTests" */;
+			buildPhases = (
+				F52DC842170442AD00C31AEA /* Sources */,
+				F52DC843170442AD00C31AEA /* Frameworks */,
+				F52DC844170442AD00C31AEA /* Resources */,
+				F52DC845170442AD00C31AEA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52DC84D170442AD00C31AEA /* PBXTargetDependency */,
+			);
+			name = SwapTests;
+			productName = SwapTests;
+			productReference = F52DC847170442AD00C31AEA /* SwapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52DC819170442AD00C31AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = APA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Chris Kim";
+			};
+			buildConfigurationList = F52DC81C170442AD00C31AEA /* Build configuration list for PBXProject "Swap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F52DC818170442AD00C31AEA;
+			productRefGroup = F52DC822170442AD00C31AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52DC820170442AD00C31AEA /* Swap */,
+				F52DC846170442AD00C31AEA /* SwapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52DC81F170442AD00C31AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DC82F170442AD00C31AEA /* InfoPlist.strings in Resources */,
+				F52DC837170442AD00C31AEA /* Default.png in Resources */,
+				F52DC839170442AD00C31AEA /* Default@2x.png in Resources */,
+				F52DC83B170442AD00C31AEA /* Default-568h@2x.png in Resources */,
+				F52DC841170442AD00C31AEA /* APAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52DC844170442AD00C31AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DC853170442AD00C31AEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F52DC845170442AD00C31AEA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52DC81D170442AD00C31AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DC831170442AD00C31AEA /* main.m in Sources */,
+				F52DC835170442AD00C31AEA /* APAAppDelegate.m in Sources */,
+				F52DC83E170442AD00C31AEA /* APAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52DC842170442AD00C31AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52DC856170442AD00C31AEA /* SwapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F52DC84D170442AD00C31AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52DC820170442AD00C31AEA /* Swap */;
+			targetProxy = F52DC84C170442AD00C31AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F52DC82D170442AD00C31AEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52DC82E170442AD00C31AEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F52DC83F170442AD00C31AEA /* APAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52DC840170442AD00C31AEA /* en */,
+			);
+			name = APAViewController.xib;
+			sourceTree = "<group>";
+		};
+		F52DC851170442AD00C31AEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52DC852170442AD00C31AEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52DC857170442AD00C31AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F52DC858170442AD00C31AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52DC85A170442AD00C31AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "Swap/Swap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F52DC85B170442AD00C31AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "Swap/Swap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F52DC85D170442AD00C31AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swap.app/Swap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "SwapTests/SwapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F52DC85E170442AD00C31AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swap.app/Swap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "SwapTests/SwapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52DC81C170442AD00C31AEA /* Build configuration list for PBXProject "Swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52DC857170442AD00C31AEA /* Debug */,
+				F52DC858170442AD00C31AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52DC859170442AD00C31AEA /* Build configuration list for PBXNativeTarget "Swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52DC85A170442AD00C31AEA /* Debug */,
+				F52DC85B170442AD00C31AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F52DC85C170442AD00C31AEA /* Build configuration list for PBXNativeTarget "SwapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52DC85D170442AD00C31AEA /* Debug */,
+				F52DC85E170442AD00C31AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F52DC819170442AD00C31AEA /* Project object */;
+}

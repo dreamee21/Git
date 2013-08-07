@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50C330D1761EF8C00E863BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50C330C1761EF8C00E863BA /* UIKit.framework */; };
+		F50C330F1761EF8C00E863BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50C330E1761EF8C00E863BA /* Foundation.framework */; };
+		F50C33111761EF8C00E863BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50C33101761EF8C00E863BA /* CoreGraphics.framework */; };
+		F50C33171761EF8C00E863BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50C33151761EF8C00E863BA /* InfoPlist.strings */; };
+		F50C33191761EF8C00E863BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C33181761EF8C00E863BA /* main.m */; };
+		F50C331D1761EF8C00E863BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C331C1761EF8C00E863BA /* AppDelegate.m */; };
+		F50C331F1761EF8C00E863BA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C331E1761EF8C00E863BA /* Default.png */; };
+		F50C33211761EF8C00E863BA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33201761EF8C00E863BA /* Default@2x.png */; };
+		F50C33231761EF8D00E863BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33221761EF8D00E863BA /* Default-568h@2x.png */; };
+		F50C33261761EF8D00E863BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C33251761EF8D00E863BA /* ViewController.m */; };
+		F50C33291761EF8D00E863BA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50C33271761EF8D00E863BA /* ViewController.xib */; };
+		F50C33311761EF8D00E863BA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50C33301761EF8D00E863BA /* SenTestingKit.framework */; };
+		F50C33321761EF8D00E863BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50C330C1761EF8C00E863BA /* UIKit.framework */; };
+		F50C33331761EF8D00E863BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50C330E1761EF8C00E863BA /* Foundation.framework */; };
+		F50C333B1761EF8D00E863BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50C33391761EF8D00E863BA /* InfoPlist.strings */; };
+		F50C333E1761EF8D00E863BA /* Flicker_SearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C333D1761EF8D00E863BA /* Flicker_SearchTests.m */; };
+		F50C335C1761EFB100E863BA /* bg_cork.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33481761EFB100E863BA /* bg_cork.png */; };
+		F50C335D1761EFB100E863BA /* bg_cork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33491761EFB100E863BA /* bg_cork@2x.png */; };
+		F50C335E1761EFB100E863BA /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C334A1761EFB100E863BA /* button.png */; };
+		F50C335F1761EFB100E863BA /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C334B1761EFB100E863BA /* button@2x.png */; };
+		F50C33601761EFB100E863BA /* decoration_snail.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C334C1761EFB100E863BA /* decoration_snail.png */; };
+		F50C33611761EFB100E863BA /* decoration_snail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C334D1761EFB100E863BA /* decoration_snail@2x.png */; };
+		F50C33621761EFB100E863BA /* divider_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C334E1761EFB100E863BA /* divider_bar.png */; };
+		F50C33631761EFB100E863BA /* divider_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C334F1761EFB100E863BA /* divider_bar@2x.png */; };
+		F50C33641761EFB100E863BA /* header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33501761EFB100E863BA /* header_bg.png */; };
+		F50C33651761EFB100E863BA /* header_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33511761EFB100E863BA /* header_bg@2x.png */; };
+		F50C33661761EFB100E863BA /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33521761EFB100E863BA /* navbar.png */; };
+		F50C33671761EFB100E863BA /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33531761EFB100E863BA /* navbar@2x.png */; };
+		F50C33681761EFB100E863BA /* polaroid1_border.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33541761EFB100E863BA /* polaroid1_border.png */; };
+		F50C33691761EFB100E863BA /* polaroid1_border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33551761EFB100E863BA /* polaroid1_border@2x.png */; };
+		F50C336A1761EFB100E863BA /* pushpin.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33561761EFB100E863BA /* pushpin.png */; };
+		F50C336B1761EFB100E863BA /* pushpin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33571761EFB100E863BA /* pushpin@2x.png */; };
+		F50C336C1761EFB100E863BA /* search_field.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33581761EFB100E863BA /* search_field.png */; };
+		F50C336D1761EFB100E863BA /* search_field@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C33591761EFB100E863BA /* search_field@2x.png */; };
+		F50C336E1761EFB100E863BA /* search_text.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C335A1761EFB100E863BA /* search_text.png */; };
+		F50C336F1761EFB100E863BA /* search_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50C335B1761EFB100E863BA /* search_text@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F50C33341761EF8D00E863BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50C33011761EF8C00E863BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50C33081761EF8C00E863BA;
+			remoteInfo = "Flicker Search";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F50C33091761EF8C00E863BA /* Flicker Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flicker Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50C330C1761EF8C00E863BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F50C330E1761EF8C00E863BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F50C33101761EF8C00E863BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F50C33141761EF8C00E863BA /* Flicker Search-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flicker Search-Info.plist"; sourceTree = "<group>"; };
+		F50C33161761EF8C00E863BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F50C33181761EF8C00E863BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F50C331A1761EF8C00E863BA /* Flicker Search-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flicker Search-Prefix.pch"; sourceTree = "<group>"; };
+		F50C331B1761EF8C00E863BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F50C331C1761EF8C00E863BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F50C331E1761EF8C00E863BA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F50C33201761EF8C00E863BA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F50C33221761EF8D00E863BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F50C33241761EF8D00E863BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F50C33251761EF8D00E863BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F50C33281761EF8D00E863BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F50C332F1761EF8D00E863BA /* Flicker SearchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flicker SearchTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50C33301761EF8D00E863BA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F50C33381761EF8D00E863BA /* Flicker SearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flicker SearchTests-Info.plist"; sourceTree = "<group>"; };
+		F50C333A1761EF8D00E863BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F50C333C1761EF8D00E863BA /* Flicker_SearchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flicker_SearchTests.h; sourceTree = "<group>"; };
+		F50C333D1761EF8D00E863BA /* Flicker_SearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flicker_SearchTests.m; sourceTree = "<group>"; };
+		F50C33481761EFB100E863BA /* bg_cork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_cork.png; sourceTree = "<group>"; };
+		F50C33491761EFB100E863BA /* bg_cork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_cork@2x.png"; sourceTree = "<group>"; };
+		F50C334A1761EFB100E863BA /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		F50C334B1761EFB100E863BA /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		F50C334C1761EFB100E863BA /* decoration_snail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decoration_snail.png; sourceTree = "<group>"; };
+		F50C334D1761EFB100E863BA /* decoration_snail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "decoration_snail@2x.png"; sourceTree = "<group>"; };
+		F50C334E1761EFB100E863BA /* divider_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divider_bar.png; sourceTree = "<group>"; };
+		F50C334F1761EFB100E863BA /* divider_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "divider_bar@2x.png"; sourceTree = "<group>"; };
+		F50C33501761EFB100E863BA /* header_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_bg.png; sourceTree = "<group>"; };
+		F50C33511761EFB100E863BA /* header_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_bg@2x.png"; sourceTree = "<group>"; };
+		F50C33521761EFB100E863BA /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		F50C33531761EFB100E863BA /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		F50C33541761EFB100E863BA /* polaroid1_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polaroid1_border.png; sourceTree = "<group>"; };
+		F50C33551761EFB100E863BA /* polaroid1_border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "polaroid1_border@2x.png"; sourceTree = "<group>"; };
+		F50C33561761EFB100E863BA /* pushpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pushpin.png; sourceTree = "<group>"; };
+		F50C33571761EFB100E863BA /* pushpin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pushpin@2x.png"; sourceTree = "<group>"; };
+		F50C33581761EFB100E863BA /* search_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_field.png; sourceTree = "<group>"; };
+		F50C33591761EFB100E863BA /* search_field@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_field@2x.png"; sourceTree = "<group>"; };
+		F50C335A1761EFB100E863BA /* search_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_text.png; sourceTree = "<group>"; };
+		F50C335B1761EFB100E863BA /* search_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_text@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F50C33061761EF8C00E863BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C330D1761EF8C00E863BA /* UIKit.framework in Frameworks */,
+				F50C330F1761EF8C00E863BA /* Foundation.framework in Frameworks */,
+				F50C33111761EF8C00E863BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50C332B1761EF8D00E863BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C33311761EF8D00E863BA /* SenTestingKit.framework in Frameworks */,
+				F50C33321761EF8D00E863BA /* UIKit.framework in Frameworks */,
+				F50C33331761EF8D00E863BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50C33001761EF8C00E863BA = {
+			isa = PBXGroup;
+			children = (
+				F50C33121761EF8C00E863BA /* Flicker Search */,
+				F50C33361761EF8D00E863BA /* Flicker SearchTests */,
+				F50C330B1761EF8C00E863BA /* Frameworks */,
+				F50C330A1761EF8C00E863BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50C330A1761EF8C00E863BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50C33091761EF8C00E863BA /* Flicker Search.app */,
+				F50C332F1761EF8D00E863BA /* Flicker SearchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50C330B1761EF8C00E863BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50C330C1761EF8C00E863BA /* UIKit.framework */,
+				F50C330E1761EF8C00E863BA /* Foundation.framework */,
+				F50C33101761EF8C00E863BA /* CoreGraphics.framework */,
+				F50C33301761EF8D00E863BA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F50C33121761EF8C00E863BA /* Flicker Search */ = {
+			isa = PBXGroup;
+			children = (
+				F50C331B1761EF8C00E863BA /* AppDelegate.h */,
+				F50C331C1761EF8C00E863BA /* AppDelegate.m */,
+				F50C33241761EF8D00E863BA /* ViewController.h */,
+				F50C33251761EF8D00E863BA /* ViewController.m */,
+				F50C33271761EF8D00E863BA /* ViewController.xib */,
+				F50C33471761EFB100E863BA /* Assets */,
+				F50C33131761EF8C00E863BA /* Supporting Files */,
+			);
+			path = "Flicker Search";
+			sourceTree = "<group>";
+		};
+		F50C33131761EF8C00E863BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F50C33141761EF8C00E863BA /* Flicker Search-Info.plist */,
+				F50C33151761EF8C00E863BA /* InfoPlist.strings */,
+				F50C33181761EF8C00E863BA /* main.m */,
+				F50C331A1761EF8C00E863BA /* Flicker Search-Prefix.pch */,
+				F50C331E1761EF8C00E863BA /* Default.png */,
+				F50C33201761EF8C00E863BA /* Default@2x.png */,
+				F50C33221761EF8D00E863BA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F50C33361761EF8D00E863BA /* Flicker SearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				F50C333C1761EF8D00E863BA /* Flicker_SearchTests.h */,
+				F50C333D1761EF8D00E863BA /* Flicker_SearchTests.m */,
+				F50C33371761EF8D00E863BA /* Supporting Files */,
+			);
+			path = "Flicker SearchTests";
+			sourceTree = "<group>";
+		};
+		F50C33371761EF8D00E863BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F50C33381761EF8D00E863BA /* Flicker SearchTests-Info.plist */,
+				F50C33391761EF8D00E863BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F50C33471761EFB100E863BA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F50C33481761EFB100E863BA /* bg_cork.png */,
+				F50C33491761EFB100E863BA /* bg_cork@2x.png */,
+				F50C334A1761EFB100E863BA /* button.png */,
+				F50C334B1761EFB100E863BA /* button@2x.png */,
+				F50C334C1761EFB100E863BA /* decoration_snail.png */,
+				F50C334D1761EFB100E863BA /* decoration_snail@2x.png */,
+				F50C334E1761EFB100E863BA /* divider_bar.png */,
+				F50C334F1761EFB100E863BA /* divider_bar@2x.png */,
+				F50C33501761EFB100E863BA /* header_bg.png */,
+				F50C33511761EFB100E863BA /* header_bg@2x.png */,
+				F50C33521761EFB100E863BA /* navbar.png */,
+				F50C33531761EFB100E863BA /* navbar@2x.png */,
+				F50C33541761EFB100E863BA /* polaroid1_border.png */,
+				F50C33551761EFB100E863BA /* polaroid1_border@2x.png */,
+				F50C33561761EFB100E863BA /* pushpin.png */,
+				F50C33571761EFB100E863BA /* pushpin@2x.png */,
+				F50C33581761EFB100E863BA /* search_field.png */,
+				F50C33591761EFB100E863BA /* search_field@2x.png */,
+				F50C335A1761EFB100E863BA /* search_text.png */,
+				F50C335B1761EFB100E863BA /* search_text@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F50C33081761EF8C00E863BA /* Flicker Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50C33411761EF8D00E863BA /* Build configuration list for PBXNativeTarget "Flicker Search" */;
+			buildPhases = (
+				F50C33051761EF8C00E863BA /* Sources */,
+				F50C33061761EF8C00E863BA /* Frameworks */,
+				F50C33071761EF8C00E863BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flicker Search";
+			productName = "Flicker Search";
+			productReference = F50C33091761EF8C00E863BA /* Flicker Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F50C332E1761EF8D00E863BA /* Flicker SearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50C33441761EF8D00E863BA /* Build configuration list for PBXNativeTarget "Flicker SearchTests" */;
+			buildPhases = (
+				F50C332A1761EF8D00E863BA /* Sources */,
+				F50C332B1761EF8D00E863BA /* Frameworks */,
+				F50C332C1761EF8D00E863BA /* Resources */,
+				F50C332D1761EF8D00E863BA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50C33351761EF8D00E863BA /* PBXTargetDependency */,
+			);
+			name = "Flicker SearchTests";
+			productName = "Flicker SearchTests";
+			productReference = F50C332F1761EF8D00E863BA /* Flicker SearchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50C33011761EF8C00E863BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Chris Kim";
+			};
+			buildConfigurationList = F50C33041761EF8C00E863BA /* Build configuration list for PBXProject "Flicker Search" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F50C33001761EF8C00E863BA;
+			productRefGroup = F50C330A1761EF8C00E863BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50C33081761EF8C00E863BA /* Flicker Search */,
+				F50C332E1761EF8D00E863BA /* Flicker SearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F50C33071761EF8C00E863BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C33171761EF8C00E863BA /* InfoPlist.strings in Resources */,
+				F50C331F1761EF8C00E863BA /* Default.png in Resources */,
+				F50C33211761EF8C00E863BA /* Default@2x.png in Resources */,
+				F50C33231761EF8D00E863BA /* Default-568h@2x.png in Resources */,
+				F50C33291761EF8D00E863BA /* ViewController.xib in Resources */,
+				F50C335C1761EFB100E863BA /* bg_cork.png in Resources */,
+				F50C335D1761EFB100E863BA /* bg_cork@2x.png in Resources */,
+				F50C335E1761EFB100E863BA /* button.png in Resources */,
+				F50C335F1761EFB100E863BA /* button@2x.png in Resources */,
+				F50C33601761EFB100E863BA /* decoration_snail.png in Resources */,
+				F50C33611761EFB100E863BA /* decoration_snail@2x.png in Resources */,
+				F50C33621761EFB100E863BA /* divider_bar.png in Resources */,
+				F50C33631761EFB100E863BA /* divider_bar@2x.png in Resources */,
+				F50C33641761EFB100E863BA /* header_bg.png in Resources */,
+				F50C33651761EFB100E863BA /* header_bg@2x.png in Resources */,
+				F50C33661761EFB100E863BA /* navbar.png in Resources */,
+				F50C33671761EFB100E863BA /* navbar@2x.png in Resources */,
+				F50C33681761EFB100E863BA /* polaroid1_border.png in Resources */,
+				F50C33691761EFB100E863BA /* polaroid1_border@2x.png in Resources */,
+				F50C336A1761EFB100E863BA /* pushpin.png in Resources */,
+				F50C336B1761EFB100E863BA /* pushpin@2x.png in Resources */,
+				F50C336C1761EFB100E863BA /* search_field.png in Resources */,
+				F50C336D1761EFB100E863BA /* search_field@2x.png in Resources */,
+				F50C336E1761EFB100E863BA /* search_text.png in Resources */,
+				F50C336F1761EFB100E863BA /* search_text@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50C332C1761EF8D00E863BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C333B1761EF8D00E863BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F50C332D1761EF8D00E863BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F50C33051761EF8C00E863BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C33191761EF8C00E863BA /* main.m in Sources */,
+				F50C331D1761EF8C00E863BA /* AppDelegate.m in Sources */,
+				F50C33261761EF8D00E863BA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50C332A1761EF8D00E863BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C333E1761EF8D00E863BA /* Flicker_SearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F50C33351761EF8D00E863BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50C33081761EF8C00E863BA /* Flicker Search */;
+			targetProxy = F50C33341761EF8D00E863BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F50C33151761EF8C00E863BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50C33161761EF8C00E863BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F50C33271761EF8D00E863BA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50C33281761EF8D00E863BA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		F50C33391761EF8D00E863BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50C333A1761EF8D00E863BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F50C333F1761EF8D00E863BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F50C33401761EF8D00E863BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F50C33421761EF8D00E863BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flicker Search/Flicker Search-Prefix.pch";
+				INFOPLIST_FILE = "Flicker Search/Flicker Search-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F50C33431761EF8D00E863BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flicker Search/Flicker Search-Prefix.pch";
+				INFOPLIST_FILE = "Flicker Search/Flicker Search-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F50C33451761EF8D00E863BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flicker Search.app/Flicker Search";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flicker Search/Flicker Search-Prefix.pch";
+				INFOPLIST_FILE = "Flicker SearchTests/Flicker SearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F50C33461761EF8D00E863BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flicker Search.app/Flicker Search";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flicker Search/Flicker Search-Prefix.pch";
+				INFOPLIST_FILE = "Flicker SearchTests/Flicker SearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50C33041761EF8C00E863BA /* Build configuration list for PBXProject "Flicker Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50C333F1761EF8D00E863BA /* Debug */,
+				F50C33401761EF8D00E863BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50C33411761EF8D00E863BA /* Build configuration list for PBXNativeTarget "Flicker Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50C33421761EF8D00E863BA /* Debug */,
+				F50C33431761EF8D00E863BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F50C33441761EF8D00E863BA /* Build configuration list for PBXNativeTarget "Flicker SearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50C33451761EF8D00E863BA /* Debug */,
+				F50C33461761EF8D00E863BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50C33011761EF8C00E863BA /* Project object */;
+}
