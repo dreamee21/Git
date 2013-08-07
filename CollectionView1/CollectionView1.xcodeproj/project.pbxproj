@@ -28,7 +28,10 @@
 		833A45ED17AB876C0094A8B0 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 833A45E717AB876C0094A8B0 /* image1.jpg */; };
 		833A45EF17AB8FF40094A8B0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 833A45EE17AB8FF40094A8B0 /* bg.png */; };
 		833A45F117AB90840094A8B0 /* navibar_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 833A45F017AB90840094A8B0 /* navibar_main.png */; };
+<<<<<<< HEAD
 		833A45F517AB93E00094A8B0 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A45F417AB93E00094A8B0 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+=======
+>>>>>>> b6ecd02d73c6e3267c0c6694a3d77e26f248a081
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,8 +61,6 @@
 		833A45E717AB876C0094A8B0 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 		833A45EE17AB8FF40094A8B0 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		833A45F017AB90840094A8B0 /* navibar_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navibar_main.png; sourceTree = "<group>"; };
-		833A45F317AB93E00094A8B0 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		833A45F417AB93E00094A8B0 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +122,6 @@
 				833A45E517AB876C0094A8B0 /* image3.jpg */,
 				833A45E617AB876C0094A8B0 /* image2.jpg */,
 				833A45E717AB876C0094A8B0 /* image1.jpg */,
-				833A45F217AB93E00094A8B0 /* JSONKit */,
 				1A9350AE16731262005000CF /* Supporting Files */,
 			);
 			path = CollectionView1;
@@ -139,15 +139,6 @@
 				1A9350BD16731262005000CF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		833A45F217AB93E00094A8B0 /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				833A45F317AB93E00094A8B0 /* JSONKit.h */,
-				833A45F417AB93E00094A8B0 /* JSONKit.m */,
-			);
-			path = JSONKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +220,6 @@
 				1A9350B416731262005000CF /* main.m in Sources */,
 				1A9350B816731262005000CF /* AppDelegate.m in Sources */,
 				1A9350C116731262005000CF /* ViewController.m in Sources */,
-				833A45F517AB93E00094A8B0 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
