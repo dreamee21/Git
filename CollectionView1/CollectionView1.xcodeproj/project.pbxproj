@@ -28,10 +28,6 @@
 		833A45ED17AB876C0094A8B0 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 833A45E717AB876C0094A8B0 /* image1.jpg */; };
 		833A45EF17AB8FF40094A8B0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 833A45EE17AB8FF40094A8B0 /* bg.png */; };
 		833A45F117AB90840094A8B0 /* navibar_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 833A45F017AB90840094A8B0 /* navibar_main.png */; };
-<<<<<<< HEAD
-		833A45F517AB93E00094A8B0 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A45F417AB93E00094A8B0 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-=======
->>>>>>> b6ecd02d73c6e3267c0c6694a3d77e26f248a081
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -314,7 +310,7 @@
 				INFOPLIST_FILE = "CollectionView1/CollectionView1-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "D48E8F5A-BB1A-42CA-A8EC-7D902177C3E3";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -328,7 +324,7 @@
 				INFOPLIST_FILE = "CollectionView1/CollectionView1-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "D48E8F5A-BB1A-42CA-A8EC-7D902177C3E3";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

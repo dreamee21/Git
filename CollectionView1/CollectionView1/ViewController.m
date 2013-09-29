@@ -3,7 +3,6 @@
 //  CollectionView1
 
 #import "ViewController.h"
-#import "JSONKit.h"
 
 #define HomeCellID @"IMG_CELL_ID"
 
@@ -110,13 +109,6 @@ const NSUInteger kNumImages		= 5;
 	[self.dataList removeAllObjects];
     
     NSMutableArray *iPhone5List = [[NSMutableArray alloc] init];
-
-    NSURL *jsonURL = [NSURL URLWithString: @"http://aurumplanet.com/~1artist1week/phonecasefree/get_productlistsByPhonetype.php"];
-    NSData *jsonData = [NSData dataWithContentsOfURL: jsonURL];
-    JSONDecoder *jsonKitDecoder = [JSONDecoder decoder];
-    NSDictionary *items = [jsonKitDecoder parseJSONData:jsonData];
-    
-    NSLog(@"Total items: %@", items);
 
 	// CellImage
     switch (phoneType) {
